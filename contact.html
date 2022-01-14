@@ -7,6 +7,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+
     <link rel="stylesheet" href="style.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,13 +16,13 @@
 <body>
      <!-- Top Navigation Menu -->
      <div class="topnav">
-        <a href="メインページ.html" class="active">AndFun</a>
+        <a href="メインページ.html" class="active">Logo</a>
         <!-- Navigation links (hidden by default) -->
         <div id="myLinks">
-            <a href="メインページ.html">Home</a>
-            <a href="tochigi_guide.html">Myanmar</a>
-            <a href="会社概要.html">Japan</a>
-            <a href="#contact">Contact</a>
+            <a href="メインページ.html">メインページ</a>
+            <a href="tochigi_guide.html">tochigi guide</a>
+            <a href="会社概要.html">会社概要</a>
+            <a href="contact.html">Contact</a>
           </div>
         <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
@@ -30,36 +31,46 @@
     </div>
 
     <div class="navbar">
-        <a href="メインページ.html">Home</a>
-        <a href="tochigi_guide.html">Myanmar</a>
-        <a href="会社概要.html">Japan</a>
-        <a href="#contact">Contact</a>
+        <a class=" btn selected"   href="メインページ.html">メインページ</a>
+        <a  class="btn " href="tochigi_guide.html">tochigi guide</a>
+        <a  class="btn " href="会社概要.html">会社概要</a>
+        <a class="btn "  href="contact.html">Contact</a>
     </div>
 
-    <form action="#">
-        <div class="containerContact">
-            <form action="action_page.php">
-          
-              <label for="fname">Your Name (required)</label>
-              <input type="text" id="fname" name="name" placeholder="Your name..">
-
-              <label for="company">Your Company Name (required)</label>
-              <input type="text" id="company" name="company_name" placeholder="Your company name..">
-
-              <label for="company">Your Email (required)</label>
-              <input type="text" id="email" name="email" placeholder="Your email..">
-
-              <label for="company">Subject</label>
-              <input type="text" id="subject" name="subject" placeholder="Your subject..">
-          
-              <label for="subject">Your Message</label>
-              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-          
-              <input type="submit" value="Submit">
-          
-            </form>
-          </div>
-      </form>
+    <div class="rowContact">
+        <div class="columnContact">
+            <form action="#">
+                <div class="containerContact">
+                    <form action="action_page.php">
+                  
+                      <label for="fname">Your Name (required)</label>
+                      <input type="text" id="fname" name="name" placeholder="Your name..">
+        
+                      <label for="company">Your Company Name (required)</label>
+                      <input type="text" id="company" name="company_name" placeholder="Your company name..">
+        
+                      <label for="company">Your Email (required)</label>
+                      <input type="text" id="email" name="email" placeholder="Your email..">
+        
+                      <label for="company">Subject</label>
+                      <input type="text" id="subject" name="subject" placeholder="Your subject..">
+                  
+                      <label for="subject">Your Message</label>
+                      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                  
+                      <input type="submit" value="Submit">
+                  
+                    </form>
+                  </div>
+              </form>
+        </div>
+        <div class="columnContactImg">
+            <div class="contactImage">
+                <img src="images/jp_log1.png" alt="">
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
       <script>
         /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
@@ -71,6 +82,25 @@
             x.style.display = "block";
           }
         }
+      
+        // Add active class to the current button (highlight it)
+            var header = document.getElementById("myDIV");
+            var btns = header.getElementsByClassName("btn");
+            // console.log('btn');
+
+            for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function() {
+            var current = document.getElementsByClassName("selected");
+            current[0].className = current[0].className.replace("selected", " ");
+            this.className += "selected";
+            });
+            }
+
+            // $('btn').on('click', function(){
+            // $('btn').removeClass('selected');
+            // $(this).addClass('selected');
+            // });
+
       </script>
 </body>
 </html>

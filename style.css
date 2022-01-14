@@ -33,7 +33,41 @@ body{
   color: black;
 }
 
+/* .selected {
+  background: #ddd;
+  color: black;
+} */
+
 /* ------------for contact------------- */
+.columnContact {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.columnContactImg{
+  width: 30%;
+  margin: 0 auto;
+}
+
+/* Clear floats after the columns */
+/* .rowContact:after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+
+.rowContact {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.columnContact {
+  /* flex: 50%; */
+}
+
+
 .containerContact{
   /* margin-top: 120px; */
   margin: 120px 10px 10px 10px;
@@ -120,7 +154,7 @@ input[type=submit]:hover {
       color: white;
       padding: 14px 16px;
       text-decoration: none;
-      font-size: 55px;
+      font-size: 40px;
       display: block;
   }
 
@@ -708,7 +742,7 @@ input[type=submit]:hover {
   font-size: 40px;
   margin-left: 130px;
   margin-right: 130px;
-  margin-top: 130px;
+  margin-top: 175px;
   /* background-color: white; */
 }
 /* ---------------------------------------------end head---------------- */
@@ -1038,11 +1072,21 @@ input[type=submit]:hover {
 
 label{
   display: block;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .catImgContainer label{
   font-size: 20px;
+}
+
+.contactImage{
+  /* margin: 0 auto; */
+}
+.contactImage img{
+  margin: 120px 0px 0px 0px;
+  /* width: 30%; */
+  width: 280px;
+  height: 400px;
 }
 
 @media(max-width:780px) {
@@ -1072,6 +1116,26 @@ label{
     font-size: 14px;
   }
 }
+
+@media (max-width: 500px){
+  .rowContact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .columnContact {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+.columnContactImg {
+  width: 90%;
+  margin: 0 auto;
+  }
+}
+
 
 @media(max-width:450px){
   .banner{
@@ -1124,6 +1188,21 @@ label{
   margin-bottom: 10px;
   font-size: 14px;
 }
+
+.columnContact {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.columnContactImg {
+  width: 90%;
+  margin: 0 auto;
+}
+.contactImage {
+  /* margin: 0 auto; */
+  margin: 0 65px;
+}
+
  }
 
 @media(max-width:350px) {
@@ -1206,10 +1285,19 @@ label{
   }
 }
 
-@media (max-width: 900px){
+@media (max-width: 920px){
   .banner-intro{
     /* width: 60%; */
   }
+
+  .contactImage img{
+    margin: 10px 0px 0px 0px;
+    /* width: 30%; */
+    width: 180px;
+    height: 400px;
+  }
+
+  
 }
 
 /* ----------------------end for myanmar kao---------- */
