@@ -1,0 +1,1488 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container{
+  /* background-color: blue; */
+}
+
+
+.navbar{
+  overflow: hidden;
+  background-color: #22b54a;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  height: 100px;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 40px 44px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* ------------for contact------------- */
+.containerContact{
+  /* margin-top: 120px; */
+  margin: 120px 10px 10px 10px;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+/* ------------for contact------------- */
+
+  /* Style the navigation menu */
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+.topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  @media (max-width: 920px){
+    .topnav a {
+      color: white;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 55px;
+      display: block;
+  }
+
+  .headMobile .paragraphMobile {
+    color: red;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #000;
+    height: 177px;
+    padding-top: 24px;
+    font-size: 40px;
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-top: 60px;
+    /* background-color: white; */
+  }
+
+  .head .paragraph {
+    color: red;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #000;
+    height: 75px;
+    padding-top: 37px;
+    font-size: 15px;
+    margin-left: 61px;
+    margin-right: 61px;
+    margin-top: 30px;
+    background-color: white;
+  }
+
+   #wrapper .myanmarPageFirstSec{ 
+    margin-top: 20px;
+  } 
+
+  .containerContact{
+    margin: 20px 10px 10px 10px;
+  }
+
+}
+
+  @media (max-width: 500px){
+    .topnav{
+      /* overflow: hidden;
+      background-color: #22b54a;
+      position: relative;
+      height: 45px; */
+    }
+
+    .topnav a {
+      color: white;
+      padding: 12px 12px;
+      text-decoration: none;
+      font-size: 20px;
+      display: block;
+    }
+
+  }
+
+  @media (max-width: 1000px){
+    /* .myanmarPageFirstSec{
+      margin-top: 30px;
+    } */
+  }
+
+  @media (min-width: 920px){
+        .topnav{
+            display: none;
+        }
+  }
+
+  @media (max-width: 920px){
+    .navbar{
+        display: none;
+    }
+
+    #wrapper1 .logoJP{
+      margin-top: 20px;
+    }
+  }
+
+
+/* @media (max-width: 920px){
+  #NavBar{
+    display: none;
+  }
+} */
+
+/* .hamBager{
+  height: 100px;
+  background-color: red;
+} */
+/* --------------------for head----------------------------- */
+
+.head{
+  /* background-image: url('images/background.jpg');  */
+  background-color: cornsilk;
+  /* background-color: #ffffff; */
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+  /* background-size: cover; */
+}
+
+.h4{
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  margin: 5px 62px;
+}
+
+.h4 img{
+  height: 30px;
+  /* width: 50%; */
+}
+/* .head img{
+    color: black;
+    font-size: 12px;
+    flex-direction: end;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 66px;
+} */
+
+
+.head .paragraph{
+  color: red;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 2px solid #000;
+  height: 100px;
+  padding-top: 37px;
+  font-size: 15px;
+  margin-left: 61px;
+  margin-right: 61px;
+  margin-top: 70px;
+  background-color: white;
+}
+
+
+/* ------------------------------end for head----------------------- */
+
+/* ----------------for second--------------------------- */
+.second{
+  width: 100%;
+  height: auto;
+  /* background-color: green; */
+  /* height: 600px; */
+}
+
+.row{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.second .row .column{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+.row .column img{
+  height: 53px;
+  /* margin: 72px; */
+  /* margin: 26px 0 0 45px; */
+}
+
+
+.column p{
+  /* margin: 8px; */
+  font-size: 12px;
+  color: red;
+}
+
+.column p,a{
+  text-decoration: none;
+  color: red;
+}
+
+.rowSNS{
+  width: 100%;
+  /* background-color: blue; */
+  text-align: center;
+  color: red; 
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.rowSNS p{
+  margin-bottom: 30px;
+}
+
+.rows{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.rows .col img{
+  height: 26px;
+  width: 36px;
+}
+/* ---------------- end for second--------------------------- */
+
+
+/* --------------------------------foot------------------------------------ */
+
+.foot{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: orange;
+  margin-top: 30px;
+}
+
+.column-foot{
+  width: 23%;
+  height: 33px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #94938f;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  border: none;
+}
+
+.column-foot p{
+  /* padding-top: 6px; */
+  font-size: 10px;
+}
+
+/* ----------------end foot */
+
+
+
+/* -----------------for mobile--------------------- */
+@media screen and (max-width: 480px) {
+  .headMobile{
+    display: none;
+  }
+
+  .secondMobile{
+    display: none;
+  }
+
+  .footMobile{
+    display: none;
+  }
+
+  .paragraphMyanmarMobile{
+    display: none;
+  }
+
+  .appMobile{
+    display: none;
+  }
+
+  .textMyanmarMobile{
+    display: none;
+  }
+
+  .logoMobile{
+    display: none;
+  }
+
+  .logoTitleMobile{
+    display: none;
+  }
+  
+  .titleJapanMobile{
+    display: none;
+  }
+
+  .imagesListMobile{
+    display: none;
+  }
+
+}
+
+@media (max-width: 600px){
+  .headMobile {
+    height: 400px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .foot{
+    display: none;
+  }
+
+  .head{
+    display: none;
+  }
+
+  .second{
+    display: none;
+  }
+
+  .paragraphMyanmar{
+    display: none;
+  }
+
+  .app{
+    display: none;
+  }
+
+  .text{
+    display: none;
+  }
+
+  .logo{
+    display: none;
+  }
+
+  .logoTitle{
+    display: none;
+  }
+
+  .titleJapan{
+    display: none;
+  }
+
+  .imagesList{
+    display: none;
+  }
+
+  .footMobile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: orange;
+    margin-top: 8px;
+    height: 150px;
+  }
+  
+  .column-footMobile{
+    width: 19%;
+    height: 116px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #94938f;
+    margin-top: 156x;
+    margin: 20px;
+    border: none;
+  }
+
+  .column-footMobile p{
+    font-size: 25px;
+  }
+  /* --------------------------------------------for myanmar pags---------- */
+  /* ----------------------------------------------------app-------------------- */
+/* ------------------------------------------for photo list-------------------- */
+
+
+/* ------------for japan pages------------- */
+.logoMobile{
+  /* background-color: green; */
+  /* height: 70px; */
+  width: 80%;
+  margin: 30px;
+}
+
+.logoMobile p{
+  font-size: 30px;
+}
+
+.logoTitleMobile{
+  /* background-color: blue; */
+  /* width: 100%; */
+  /* height: 400px; */
+  /* margin: 20px; */
+
+  /* background-color: blue; */
+  /* width: 100%; */
+  height: 300px;
+  /* margin: 20px; */
+  border: 2px solid #000;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 0 60px;
+}
+
+
+.logoTitleMobile .ppMobile{
+    /* border: 2px solid #000;
+    height: 200px;
+    text-align: center;
+    justify-content: center;
+    padding: 200px 0px 0px 0px;
+    font-size: 27px;
+    font-weight: bold;
+    margin: 0 60px 0 60px; */
+    /* border: 2px solid #000; */
+    /* height: 200px; */
+    /* text-align: center; */
+    /* justify-content: center; */
+    /* padding: 200px 0px 0px 0px; */
+    font-size: 27px;
+    font-weight: bold;
+    /* width: 100%; */
+    /* margin: 70px; */
+    /* margin: 0 60px 0 60px; */
+    /* margin: 20px; */
+    padding: 100px 0;
+}
+
+.titleJapanMobile .t{
+  /* background-color: teal; */
+  font-size: 23px;
+  margin: 30px;
+}
+
+.rowJapanMobile{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* height: 600px; */
+}
+
+.columnJapanMobile img{
+  /* width: 80%;  */
+    height: 550px;
+    /* margin-top: 10px; */
+    margin: 19px;
+    /* margin: 0px; */
+    width: 350px;
+    border: 1px solid;
+}
+/* -----------------------------end for japan pages---------- */
+.rowMyanmarMobile{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  /* justify-content: space-evenly; */
+  /* justify-content: start; */
+  /* justify-content: space-around; */
+  flex-wrap: wrap;
+}
+
+.colMyanmarMobile img{
+  /* width: 220px;
+  height: 160px; */
+  width: 300px;
+  height: 200px
+
+}
+
+.rowMyanmarMobile h7{
+  font-size: 20px;
+  /* margin-left: 100px; */
+}
+
+.rowMyanmarMobile .row-col{
+  text-align: center;
+  /* margin: 42px; */
+  margin: 0 0 0 30px;
+}
+
+.textMyanmarMobile  {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.myanmarNatureMobile{
+  margin: 10px 0 10px 30px;
+  /* margin: 50px; */
+}
+
+.natureMMMobile{
+  /* margin-left: 25px; */
+}
+
+.natureMMMobile h4{
+  font-size: 30px;
+}
+
+.natureMyanmarMobile{
+  /* font-size: 30px; */
+  /* margin: 10px 0 10px 30px; */
+  margin: 10px 0 10px 15px;
+}
+
+/* --------------------------------end for photo list-------------------- */
+
+.appMobile .titleMobile h1{
+  font-size: 40px;
+  margin: 10px 0 10px 30px;
+}
+
+ .headerMobile{
+  background-image: url('images/map_jp.png');
+  height: 500px;
+  background-size: 80% 100%;
+  background-repeat: no-repeat;
+  /* background-color: red; */
+  margin-left: 40px;
+}
+
+/* .appMobile .headerMobile img{
+  height: 500px;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* -----------------------end for app------------------------------------- */
+
+
+  .paragraphMyanmarMobile{
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 450px; */
+    margin: 0 140px 0 140px;
+    border: 2px solid #000;
+    width: 444px;
+    height: 180px;
+  }
+  
+  .paragraphMyanmarMobile p{ 
+    font-size: 20px;
+    /* padding-top: 10px; */
+    padding-left: 20px;
+  }
+  /* --------------------------------------------for myanmar pags---------- */
+
+
+/* -----------------------------------------head------------------- */
+  .headMobile{
+    /* background-image: url('images/background.jpg');  */
+    width: 100%; 
+    height: 490px;
+    display: flex;
+    flex-direction: column;
+    background-color: cornsilk;
+    /* background-color: #ffffff; */
+    /* background-size: cover; */
+  }
+
+.h4Mobile{
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 30px 128px;
+}
+
+.h4Mobile img{
+  height: 90px;
+}
+  
+.headMobile h4{
+  color: black;
+  font-size: 27px;
+  flex-direction: end;
+  display: flex;
+  flex-direction: row-reverse;
+  /* margin: 85px; */
+  margin-right: 125px;
+}
+
+.headMobile .paragraphMobile{
+  color: red;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 2px solid #000;
+  height: 300px;
+  padding-top: 60px;
+  font-size: 40px;
+  margin-left: 130px;
+  margin-right: 130px;
+  margin-top: 130px;
+  /* background-color: white; */
+}
+/* ---------------------------------------------end head---------------- */
+
+
+
+/* -----------------------------second----------------------- */
+  .secondMobile{
+      width: 100%;
+      height: auto;
+      /* background-color: green; */
+      /* height: 600px; */
+  }
+  
+  .rowMobile{
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      justify-content: space-around;
+      flex-wrap: wrap;
+}
+
+  .rowMobile .columnMobile img{
+    height: 130px;
+    /* margin: 20px; */
+  margin: 60px 30px 30px 30px;
+
+}
+
+
+  .columnMobile p{
+    margin: 8px;
+    font-size: 18px;
+    color: red;
+}
+
+.rowSNSMobile{
+  width: 100%;
+  /* background-color: blue; */
+  text-align: center;
+  color: red; 
+  font-size: 25px;
+}
+
+.rowsMobile{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    height: 200px;
+    align-items: center;
+}
+
+.rowsMobile .colMobile img{
+  height: 106px;
+    width: 149px;
+    margin: 15px;
+}
+  /* ----------------end second---------------------- */
+
+  /* ----------------------for foot--------------------- */
+  
+/* --------------------------------foot------------------------------------ */
+
+
+
+.column-foot p{
+  /* padding-top: 6px; */
+}
+
+  /* ----------------------for foot--------------------- */
+
+
+}
+
+
+
+
+/* ---------------------------------------------for Myanmar Page---------------- */
+
+/* ----------------------------------------------------app-------------------- */
+
+.app .title{
+  /* margin-left: 20px; */
+  margin-left: 30px;
+  /* background-color: red; */
+}
+
+.app .title p{
+  font-size: 20px;
+  /* margin: 20px 0 20px 0; */
+}
+
+
+.app .header {
+  /* background-image: url(images/map_jp.png);
+    height: 198px;
+    background-size: 65% 89%;
+    background-repeat: no-repeat;
+    margin-left: 15px; */
+
+    background-image: url(images/map_jp.png);
+    height: 198px;
+    background-size: 100% 89%;
+    background-repeat: no-repeat;
+    /* margin-left: 15px; */
+    margin: 25px;
+}
+
+/* -----------------------end for app------------------------------------- */
+
+/* --------------------------------------Paragraph Class---------------------- */
+.paragraphMMMobile{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.paragraphMM{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.paragraphMyanmar{
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 117px; */
+  /* margin: 0px 115px 0 115px; */
+  border: 1px solid #000;
+  width: 204px;
+  width: 180px;
+  height: 77px;
+  margin-bottom: 15px;
+}
+
+.paragraphMyanmar p{ 
+  font-size: 8px;
+    padding-bottom: -17px;
+    padding: 5px;
+    margin: 0;
+}
+/* ------------------------------------End Paragraph Class---------------------- */
+
+/* ------------------------------------------for photo list-------------------- */
+.rowMyanmar{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  /* justify-content: space-evenly; */
+  flex-wrap: wrap;
+  /* background-color: red; */
+}
+
+.colMyanmar img{
+  width: 130px;
+  height: 90px;
+  /* margin: 1px; */
+  margin-top: 3px;
+}
+
+.rowMyanmar .row-col{
+  text-align: center;
+  /* margin: 5px; */
+  margin: 5px 0 0 9px;
+}
+
+.rowMyanmar h7{
+  font-size: 10px;
+    /* margin-left: 14px; */
+}
+
+
+.natureMyanmar{
+  font-size: 14px;
+  /* margin: 10px 0px 10px 28px; */
+  /* margin: 0 0 10px 46px; */
+  /* margin: 19px 0 10px 46px; */
+  /* margin: 20px; */
+  margin: 5px 0px 0px 30px;
+}
+
+/* --------------------------------end for photo list-------------------- */
+
+
+/* ------------for japan pages---------------------------------------------- */
+.logo{
+  /* background-color: red; */
+  /* height: 70px; */
+  width: 150px;
+  margin: 15px;
+}
+
+.logoTitle{
+  /* background-color: blue; */
+  /* width: 100%; */
+  /* height: 500px; */
+  margin: 20px;
+  border: 1px solid #000;
+  height: 100px;
+  text-align: center;
+  justify-content: center;
+}
+
+.logo p{
+  font-size: 15px;
+}
+
+.logoTitle .pp{
+  
+  padding: 25px 0px 0px 0px;
+  font-size: 15px;
+  font-weight: bold;
+  /* width: 100%;*/
+}
+
+.titleJapan .t{
+  /* background-color: teal; */
+  font-size: 14px;
+  margin: 15px;
+}
+
+.imagesList{
+  /* height: 530px; */
+}
+
+.rowJapan{
+  display: flex;
+  flex-wrap: wrap;
+  /* width: 100%; */
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* height: 600px; */
+  margin: 10px;
+}
+
+.columnJapan img{
+  /* width: 100%; */
+  height: 217px;
+  /* margin-top: 30px; */
+  margin-bottom: 15px;
+  width: 120px;
+  border: 0.5px solid;
+
+}
+
+.column2Japan img{
+}
+
+/* ------------for japan pages---------------------------------------------- */
+
+/* ----------------------for myanmar kao---------- */
+
+/* *{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+} */
+
+#wrapper{
+  width: 85%;
+  margin: 0 auto;
+}
+
+#wrapper{
+  width: 85%;
+  margin: 0 auto;
+}
+
+#wrapper > div {
+  margin-top: 120px;
+  width: 100%;
+}
+
+.myanmarPageFirstSec{
+  width: 100%; /*1400px*/
+}
+
+.banner{
+  width: 100%; /*1400px*/
+  height: 500px;
+  background: url('images/map_jp.png') no-repeat center center;
+  background-size: contain;
+}
+
+.banner-intro{
+  width: 58%;
+  margin:0 auto;
+  padding:20px;
+  border: 1px solid #000;
+}
+
+.banner-intro li{
+  margin: 7px 0px;
+  font-size: 20px;
+}
+
+.banner-intro ul{
+  padding: 0px 0px 0px 65px;
+}
+
+
+.catContainer p{
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.catImgContainer{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 45px;
+}
+
+
+.catImgContainer > div {
+  width: 24%;
+}
+
+.catImgContainer img{
+  width: 100%;
+  height: 100%;
+}
+
+label{
+  display: block;
+  text-align: center;
+}
+
+.catImgContainer label{
+  font-size: 20px;
+}
+
+@media(max-width:780px) {
+
+  .banner{
+      height: 420px;
+  }
+
+  .banner-intro{
+      width: 70%;
+  }
+
+  .banner-intro ul{
+      padding: 0px 0px 0px 30px;
+  }
+
+  .banner-intro li{
+      font-size: 15px;
+  }
+
+  .catImgContainer label{
+    font-size: 14px;
+  }
+
+  .catContainer p{
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+}
+
+@media(max-width:450px){
+  .banner{
+      height: 230px;
+  }
+ 
+  .banner-intro {
+     width: 80%;
+     padding: 5px;
+ }
+ 
+ .banner-intro ul{
+     padding: 0px 0px 0px 30px;
+ }
+ 
+ .banner-intro li{
+     font-size: 12px;
+ }
+ 
+ .myanmarPageFirstSec h1{
+     font-size: 16px;
+ }
+ 
+ .catContainer h3{
+     font-size: 12px;
+ }
+ .catImgContainer > div {
+   width: 45%;
+ }
+
+ .catImgContainer img{
+  width: 100%;
+  height: 80%;
+ }
+
+ .catImgContainer{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+  flex-wrap: wrap;
+  flex-direction: row;
+ }
+
+ .catImgContainer label{
+     font-size: 13px;
+ }
+ 
+ .catContainer p{
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+ }
+
+@media(max-width:350px) {
+
+  .catImgContainer{
+      flex-direction: column;
+  }
+
+  .catImgContainer > div {
+      width: 100%;
+      margin-bottom: 40px
+  }
+
+  .catImgContainer > div:last-child{
+      margin-bottom: 0px;
+  }
+
+  .catImgContainer label{
+    font-size: 13px;
+  }
+
+  .catContainer p{
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+}
+
+@media (max-width:320px){
+  .banner-intro {
+      width: 80%;
+      padding: 0;
+  }
+  
+  .banner{
+      height: 180px;
+  }
+
+  .myanmarPageFirstSec h1 {
+      font-size: 14px;
+  }
+
+  .banner-intro ul {
+      padding: 0px 0px 0px 30px;
+  }
+
+  .banner-intro li {
+      font-size: 9px;
+  }
+
+  .catImgContainer > div {
+      width: 50%;
+  }
+  .catImgContainer{
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      width: 100%;
+      margin-bottom: 5px;
+  }
+
+  .catContainer p{
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+  .catImgContainer > div {
+      margin-bottom: 10px;
+  }
+
+  #wrapper > div {
+      margin-top: 10px;
+  }
+  .catImgContainer img {
+      width: 95%;
+      height: 75%;
+  }
+
+  .catImgContainer label{
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 900px){
+  .banner-intro{
+    /* width: 60%; */
+  }
+}
+
+/* ----------------------end for myanmar kao---------- */
+
+/* -------------------------for japan edit------------------------ */
+
+#wrapper1{
+  width: 85%;
+  margin: 0 auto;
+  /* background-color: red; */
+}
+
+#wrapper1 > div {
+  /* margin-top: 20px; */
+  width: 90%;
+}
+.logoJP{
+  margin-top: 120px;
+  font-size: 25px;
+  /* margin: 20px; */
+  /* background-color: blue; */
+}
+
+.logoJPTitle{
+  /* background-color: green; */
+  /* background-color: blue; */
+  /* border: 1px solid #000;
+  width: 70%;
+  padding: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto; */
+
+    text-align: center;
+    margin: 0 auto;
+    /* padding: 50px; */
+    border: 1px solid #000;
+    height: 300px;
+}
+
+.logoJPTitle p{
+  font-size: 25px;
+  text-align: center;
+  padding: 100px;
+}
+
+.titleJapanJP{
+  font-size: 23px;
+  margin: 20px;
+}
+
+.imagesListJ{
+  margin: 0 auto;
+}
+.imagesListJP{
+  /* display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 0 auto; */
+
+
+     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    /* width: 70%; */
+    /* background: blue; */
+    margin: 0 auto;
+}
+
+.rowJapanJP{
+  /* margin: 0 auto;
+  justify-content: center;
+  align-items: center; */
+  text-align: center;
+  width: 50%;
+  /* background-color: green; */
+}
+
+.columnJapanJP{
+  height: 50%;
+
+}
+
+.columnJapanJ{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* background-color: red; */
+  margin: 10px;
+}
+
+.columnJapanJ img{
+  width: 42%;
+  margin: 0 auto;
+}
+
+.columnJapanJP img{
+  width: 85%;
+  margin: 10px;
+}
+
+ @media (max-width: 900px){
+  .columnJapanJP img{
+    width: 70%;
+    margin: 10px;
+  }
+
+  .columnJapanJ img{
+    width: 42%;
+  margin: 0 auto;
+  margin-top: 10px;
+  }
+}
+
+
+@media (max-width: 768px){
+
+  .logoJPTitle{
+    height: 200px;
+  }
+
+  .logoJPTitle p{
+    font-size: 22px;
+    text-align: center;
+    padding: 50px;
+  }
+
+  .logoJP p{
+    font-size: 23px;
+  }
+
+  .titleJapanJP p{
+    font-size: 20px;
+  }
+
+  .imagesList {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      margin: 0 auto;
+  }
+
+  /* .rowJapanJP {
+      margin: 0 auto;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      width: 50%;
+  } */
+
+  .columnJapanJP img{
+      width: 70%;
+      margin: 10px;
+  }
+}
+
+@media (max-width: 500px){
+  .imagesListJP {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 70%;
+    /* background: blue; */
+    margin: 0 auto;
+}
+
+.columnJapanJ{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* background-color: red; */
+  margin: 10px;
+}
+
+.columnJapanJ img {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.rowJapanJP {
+  text-align: center;
+  width: 100%;
+  /* background-color: green; */
+}
+
+}
+
+@media (max-width: 429px){
+  .logoJPTitle{
+      /* padding: 70px; */
+      height: 110px;
+  }
+
+  .logoJP{
+    margin: 0;
+  }
+
+  .logoJP p{
+    font-size: 14px;
+
+  }
+  .logoJP p{
+    font-size: 13px;
+  }
+
+  .logoJPTitle p{
+    font-size: 12px;
+    text-align: center;
+    padding: 30px;
+  }
+  .imagesList{
+      flex-direction: column;
+  }
+
+  .rowJapan{
+      width: 90%;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+  }
+
+  .logoTitle p {
+      font-size: 13px;
+  }
+
+  .logo {
+      font-size: 20px;
+      margin: 10px;
+  }
+
+  .titleJapanJP{
+    margin: 0px;
+  }
+  .titleJapanJP p{
+      font-size: 11px;
+      /* margin: 10px; */
+  }
+
+  .columnJapanJP{
+      width: 100%;
+  }
+
+  .columnJapanJP img {
+      width: 70%;
+      margin: 10px;
+  }
+}
+
+
+@media (max-width: 320px){
+  .rowJapanJP{
+      width: 90%;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      margin: 0 auto;
+  }
+
+  .columnJapanJP{
+      width: 100%;
+  }
+  .imagesListJP{
+    margin: 0 auto;
+  }
+} 
+/* -------------------------end for japan edit------------------------ */
+
+
+
+
+
+
+
+

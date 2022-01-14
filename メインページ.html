@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index Page</title>
+  </head>
+  <body>
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+      <a href="メインページ.html" class="active">AndFun</a>
+      <!-- Navigation links (hidden by default) -->
+      <div id="myLinks">
+        <a href="メインページ.html">Home</a>
+        <a href="tochigi_guide.html">Myanmar</a>
+        <a href="会社概要.html">Japan</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <div id="NavBar" class="navbar">
+      <a href="メインページ.html">Home</a>
+      <a href="tochigi_guide.html">Myanmar</a>
+      <a href="会社概要.html">Japan</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <div class="head">
+      <div class="paragraph">
+        「KAIGO」 は優しさや思いやりの別名
+        <br />
+        的なメッセージを
+      </div>
+      <div class="h4">
+        <!-- <h4>マロニエケアーアシスト協同組</h4> -->
+        <img src="images/log.png" alt="">
+      </div>
+    </div>
+    
+    <!-- ------------------------for mobil--------------- -->
+    <div class="headMobile">
+      <div class="paragraphMobile">
+        「KAIGO」 は優しさや思いやりの別名
+        <br />
+        的なメッセージを
+      </div>
+      <div class="h4Mobile">
+        <!-- <h4>マロニエケアーアシスト協同組</h4> -->
+        <img src="images/log.png" alt="">
+      </div>
+    </div>
+    <!-- ------------------------end for mobil--------------- -->
+    <div class="second">
+      <div class="row">
+        <div class="column">
+          <img src="images/mmflag.jpg" alt="" />
+          <p>
+            <a href="tochigi_guide.html"
+              >技能実習生向け窓口→栃木ガイドへ</a
+            >
+          </p>
+        </div>
+        <div class="column">
+          <img src="images/jpflagg.png" alt="" />
+          <p>
+            <a href="会社概要.html">
+              組合員向け （施設関係者） 向け
+              <br /><br />
+              →会社概要、 サービス一覧へ
+            </a>
+          </p>
+        </div>
+      </div>
+
+      <div class="rowSNS">
+        <p>SNS との連携</p>
+      </div>
+      <div class="rows">
+        <div class="col">
+          <img src="images/yt.png" alt="" />
+        </div>
+        <div class="col">
+          <img src="images/fb.png" alt="" />
+        </div>
+        <div class="col">
+          <img src="images/ig.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- ----------for mobile------------------------- -->
+    <div class="secondMobile">
+      <div class="rowMobile">
+        <div class="columnMobile">
+          <img src="images/mmflag.jpg" alt="" />
+          <p>
+            <a href="tochigi_guide.html"
+              >技能実習生向け窓口→栃木ガイドへ</a
+            >
+          </p>
+        </div>
+        <div class="columnMobile">
+          <img src="images/jpflagg.png" alt="" />
+          <p>
+            <a href="会社概要.html">
+              組合員向け （施設関係者） 向け
+              <br /><br />
+              →会社概要、 サービス一覧へ
+            </a>
+          </p>
+        </div>
+      </div>
+      <div class="rowSNSMobile">
+        <p>SNS との連携</p>
+      </div>
+
+      <div class="rowsMobile">
+        <div class="colMobile">
+          <img src="images/yt.png" alt="" />
+        </div>
+        <div class="colMobile">
+          <img src="images/fb.png" alt="" />
+        </div>
+        <div class="colMobile">
+          <img src="images/ig.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- ----------end for mobil ----------------->
+
+    <div class="foot">
+        <button class="column-foot"><p>問い合わせ</p></button>
+        <button class="column-foot" ><p>ブログ</p></button>
+        <button class="column-foot" ><p>アクセス</p></button>
+    </div>
+
+    <!-- -----------------------for mobile -->
+    <div class="footMobile">
+        <button class="column-footMobile"><p>問い合わせ</p></button>
+        <button class="column-footMobile" ><p>ブログ</p></button>
+        <button class="column-footMobile" ><p>アクセス</p></button>
+    </div>
+    <!-- -----------------------for mobile -->
+
+    <script>
+      /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myanmar</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+</head>
+<body>
+
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+        <a href="メインページ.html" class="active">AndFun</a>
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+            <a href="メインページ.html">Home</a>
+            <a href="tochigi_guide.html">Myanmar</a>
+            <a href="会社概要.html">Japan</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <div class="navbar">
+        <a href="メインページ.html">Home</a>
+        <a href="tochigi_guide.html">Myanmar</a>
+        <a href="会社概要.html">Japan</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <div id="wrapper">
+        
+        <div class="myanmarPageFirstSec">
+            <h1>Tochigi Guide</h1>
+            <div class="banner"></div>
+            <div class="banner-intro">
+                <ul>
+                    <!-- <li>東京からわずか60分</li>
+                    <li>都市と自然が共存する「県」</li>
+                    <li>おしゃれなカフェ、観光スポットも多数</li> -->
+                    <li>東京からわずか60分</li>
+                    <li>都市と自然が共存している「県」</li>
+                    <li>オシャレなカフェ、観光スポットも多数</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="myanmarPageSecondSec">
+
+            <div class="catContainer">
+                <p>Nature</p>
+                <div class="catImgContainer">
+                    <div>
+                        <img src="images/ok2.png" alt="ok1.png">
+                        <label for="">spring</label>
+                    </div>
+                    <div>
+                        <img src="images/ok1.png" alt="ok1.png">
+                        <label for="">summer</label>
+                    </div>
+                    <div>
+                        <img src="images/ok3.png" alt="ok1.png">
+                        <label for="">autumn</label>
+                    </div>
+                    <div>
+                        <img src="images/ok1.png" alt="ok1.png">
+                        <label for="">winter</label>
+                    </div>
+                </div>
+            </div>
+            <div class="catContainer">
+                <p>View Point</p>
+                <div class="catImgContainer">
+                    <div>
+                        <img src="images/ok5.png" alt="ok1.png">
+                        <label for="">utunomiya station</label>
+                    </div>
+                    <div>
+                        <img src="images/ok6.png" alt="ok1.png">
+                        <label for="">nikkou</label>
+                    </div>
+                    <div>
+                        <img src="images/ok1.png" alt="ok1.png">
+                        <label for="">nasu</label>
+                    </div>
+                    <div>
+                        <img src="images/ok8.png" alt="ok1.png">
+                        <label for="">ooya</label>
+                    </div>
+                </div>
+            </div>
+            <div class="catContainer">
+                <p>Food</p>
+                <div class="catImgContainer">
+                    <div>
+                        <img src="images/ok9.png" alt="ok1.png">
+                        <label for="">utunomiya gyouza</label>
+                    </div>
+                    <div>
+                        <img src="images/ok10.png" alt="ok1.png">
+                        <label for="">tochiotome</label>
+                    </div>
+                    <div>
+                        <img src="images/ok11.png" alt="ok1.png">
+                        <label for="">ryumon cafe</label>
+                    </div>
+                    <div>
+                        <img src="images/ok1.png" alt="ok1.png">
+                        <label for="">sano rame</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+      </script>
+</body>
+</html>

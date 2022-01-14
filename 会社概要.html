@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japan</title>
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+</head>
+<body>
+
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+        <a href="メインページ.html" class="active">AndFun</a>
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+            <a href="メインページ.html">Home</a>
+            <a href="tochigi_guide.html">Myanmar</a>
+           <a href="会社概要.html">Japan</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+    <div class="navbar">
+        <a href="メインページ.html">Home</a>
+        <a href="tochigi_guide.html">Myanmar</a>
+        <a href="会社概要.html">Japan</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    <div id="wrapper1">
+        
+        <div class="logoJP">
+            <p style="font-family: Arial, Helvetica, sans-serif;">会社概要</p>
+        </div>
+    
+        <div class="logoJPTitle">
+            <p class="pp" style="font-family: Arial, Helvetica, sans-serif;">テキスト</p>
+        </div>
+    
+        <div class="titleJapanJP" >
+            <p class="t" style="font-family: Arial, Helvetica, sans-serif;">組合員サービス一覧</p>
+        </div>
+    
+        <div class="imagesListJP">
+            <div class="rowJapanJP">
+                <div class="columnJapanJP">
+                    <a target="_blank" href="./images/jp_log2.pdf" download><img src="images/jp2.png" alt=""></a>
+                </div>
+                <div class="columnJapanJP">
+                    <a target="_blank" href="./images/jp_log1.pdf" download><img src="images/jp1.png" alt=""></a>
+                </div>
+            </div>
+            <div class="rowJapanJP">
+                <div class="columnJapanJP">
+                    <a target="_blank" href="./images/jp_log4.pdf" download><img src="images/jp3.png" alt=""></a>
+                </div>
+                <div class="columnJapanJP">
+                    <a target="_blank" href="./images/jp_log3.pdf" download><img src="images/jp4.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ------------------------for mobile----------------- -->
+    <!-- <div class="logoMobile">
+        <p style="font-family: Arial, Helvetica, sans-serif;">会社概要</p>
+    </div>
+    
+    <div class="logoTitleMobile">
+        <p class="ppMobile" style="font-family: Arial, Helvetica, sans-serif;">テキスト</p>
+    </div>
+
+    <div class="titleJapanMobile">
+        <p class="t" style="font-family: Arial, Helvetica, sans-serif;">組合員サービス一覧</p>
+    </div>
+    
+    <div class="imagesListMobile">
+        <div class="rowJapanMobile">
+            <div class="columnJapanMobile">
+                <img src="images/jp2.png" alt="">
+            </div>
+            <div class="columnJapanMobile">
+                <img src="images/jp1.png" alt="">
+            </div>
+        </div>
+        <div class="rowJapanMobile">
+            <div class="columnJapanMobile">
+                <img src="images/jp3.png" alt="">
+            </div>
+            <div class="columnJapanMobile">
+                <img src="images/jp4.png" alt="">
+            </div>
+        </div>
+    </div> -->
+    <!-- --------------------------------for mobile-------------------- -->
+
+    <script>
+        /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+      </script>
+</body>
+</html>
